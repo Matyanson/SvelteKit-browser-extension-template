@@ -1,5 +1,5 @@
 {
-  "name": "stagtimetableextension",
+  "name": "sveltekit-extension",
   "version": "0.0.1",
   "scripts": {
     "dev:extension": "nodemon --watch src --watch static --ext .* --exec \"npm run build\"",
