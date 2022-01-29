@@ -2,6 +2,7 @@
   "name": "stagtimetableextension",
   "version": "0.0.1",
   "scripts": {
+    "dev:extension": "nodemon --watch src --watch static --ext .* --exec \"npm run build\"",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "nodemon": "^2.0.15",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.9.4",

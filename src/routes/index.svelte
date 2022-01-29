@@ -8,7 +8,10 @@
 </script>
 <div id="popup-window" style="width: 400px;height: 500px">
     <button on:click={getUrl}>Reveal Current URL</button>
+
     <div class="">The current URL is: {url}</div>
+
+    <p>note: run the "dev:extension" script for hot reload.</p>
 </div>
 
 <style>

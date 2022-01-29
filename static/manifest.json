@@ -6,6 +6,7 @@
     "permissions": [
       "activeTab"
     ],
+    "background": { "scripts": ["hot-reload.js"] },
     "options_page": "options/index.html",
     "action": {
       "default_title": "Svelte Extension",
