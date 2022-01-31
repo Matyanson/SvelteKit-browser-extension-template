@@ -9,7 +9,7 @@
 			to enforce using \`import type\` instead of \`import\` for Types.
 			*/
 		"importsNotUsedAsValues": "error",
-		"isolatedModules": true,
+		"isolatedModules": false,
 		"resolveJsonModule": true,
 		/**
 			To have warnings/errors of the Svelte compiler at the correct position,

@@ -2,7 +2,7 @@
   "name": "sveltekit-extension",
   "version": "0.0.1",
   "scripts": {
-    "dev:extension": "nodemon --watch src --watch static --ext .* --exec \"npm run build\"",
+    "dev:extension": "nodemon --watch src --watch static --ext .* --exec \"npm run build & npx tsc --project tsconfig.extension.json\"",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
