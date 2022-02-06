@@ -1,6 +1,0 @@
-{
-    "compilerOptions": {
-        "outDir": "build/content_scripts/"
-    },
-    "include": ["src/content_scripts/*.ts"]
-}

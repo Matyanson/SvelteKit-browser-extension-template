@@ -2,7 +2,7 @@
   "name": "sveltekit-extension",
   "version": "0.0.1",
   "scripts": {
-    "dev:extension": "nodemon --watch src --watch static --ext .* --exec \"npm run build & npx tsc --project tsconfig.extension.json\"",
+    "dev:extension": "nodemon --watch src --watch static --ext .* --exec \"npm run build & npx esbuild src/content_scripts/main.ts --bundle --outdir=build/content_scripts/\"",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
@@ -23,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@types/chrome": "^0.0.177"
+    "@types/chrome": "^0.0.177",
+    "esbuild": "^0.14.18"
   }
 }
