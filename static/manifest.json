@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content-scripts/main.js"]
+      "js": ["content_scripts/main.js"]
     }
   ],
   "icons": {
